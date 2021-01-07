@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:blaze_rod", Count:1b, tag:{display:{Name:'{"text":"Enchanted Blaze Rod ","color":"blue","bold":true}'},HideFlags:63,EnchRod:1b,Enchantments:[{}]}}]}
+playsound entity.blaze.ambient master @a ~ ~ ~ 0.2 1

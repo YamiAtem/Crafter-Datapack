@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:ender_pearl", Count:1b, tag:{display:{Name:'{"text":"Enchanted Ender Pearl","color":"blue","bold":true}'},HideFlags:63,EnchEndPearl:1b,Enchantments:[{}]}}]}
+playsound entity.enderman.teleport master @a ~ ~ ~ 0.2 1

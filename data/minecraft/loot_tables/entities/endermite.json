@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance",
+                    "chance": 0.05
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 1,
+                    "looting_multiplier": 0.025
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Enchanted Ender Pearl\",\"color\":\"blue\",\"bold\":true}'},HideFlags:63,EnchEndPearl:1b,Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

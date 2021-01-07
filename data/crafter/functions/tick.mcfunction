@@ -1,0 +1,1 @@
+execute as @e[tag=crafter] at @s run function crafter:crafter

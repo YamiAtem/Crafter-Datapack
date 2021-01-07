@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:blaze_rod", Count:1b , tag:{display:{Name:'{"text":"Scaffolder","color":"dark_red","bold":true}',Lore:['{"text":"Rod of Cheaters","color":"dark_purple","bold":true,"italic":true}']},HideFlags:63,scaffold:1b,Enchantments:[{}]}}]}
+playsound entity.blaze.ambient master @a ~ ~ ~ 0.2 1

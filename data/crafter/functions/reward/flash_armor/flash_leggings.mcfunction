@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:leather_leggings", Count:1b, tag:{display:{Name:'{"text":"The Flash Leggings","color":"gold","bold":true,"italic":true}',Lore:['{"text":"The Leggings of the Flash","color":"dark_purple","bold":true,"italic":true}'],color:16729344},Unbreakable:1b,FlashLeg:1b}}]}
+playsound entity.player.splash.high_speed master @a ~ ~ ~ 0.2 1

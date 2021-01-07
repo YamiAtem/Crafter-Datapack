@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:player_head", Count:1b, tag:{SkullOwner:MHF_Enderman, display:{Name:'{"text":"Ender Helmet","color":"light_purple","bold":true,"italic":true}',Lore:['{"text":"Helmet of Ender Men","color":"dark_purple","bold":true,"italic":true}']},HideFlags:63,Unbreakable:1b,EnderHelmet:1b,Enchantments:[{}]}}]}
+playsound entity.enderman.scream master @a ~ ~ ~ 0.2 1

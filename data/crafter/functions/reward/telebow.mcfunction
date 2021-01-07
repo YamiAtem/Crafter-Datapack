@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:bow", Count:1b, tag:{display:{Name:'{"text":"Teleporter Bow","color":"gold","bold":true,"italic":true}',Lore:['{"text":"Teleportation","color":"light_purple","bold":true,"italic":true}']}, Enchantments:[{}], Unbreakable:1b,MagiBow:1b}}]}
+playsound entity.enderman.teleport master @a ~ ~ ~ 0.2 1

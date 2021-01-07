@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:potion", Count:1b, tag:{display:{Name:'{"text":"Enchanted Speed Potion","color":"blue","bold":true}'},HideFlags:63,EnchSpeed:1b,Enchantments:[{}],Potion:"minecraft:strong_swiftness"}}]}
+playsound entity.splash_potion.break master @a ~ ~ ~ 0.2 1
