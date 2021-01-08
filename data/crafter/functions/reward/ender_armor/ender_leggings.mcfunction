@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b, id:"minecraft:leather_leggings", Count:1b, tag:{display:{Name:'{"text":"Ender Leggings","color":"light_purple","bold":true,"italic":true}',Lore:['{"text":"Leggings of Ender Men","color":"dark_purple","bold":true,"italic":true}'],color:8991416},HideFlags:63,Unbreakable:1b,EnderLeg:1b,Enchantments:[{}]}}]}
+playsound entity.enderman.scream master @a ~ ~ ~ 0.2 1
