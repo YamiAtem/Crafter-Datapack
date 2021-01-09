@@ -1,2 +1,2 @@
 execute align xz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["crafter"],Invulnerable:1b,Invisible:1b}
-setblock ~ ~ ~ dropper
+setblock ~ ~ ~ dropper{CustomName:'{"text":"Custom Crafter","bold":true,"italic":true}'}
