@@ -1,0 +1,145 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0.0,
+                  "max": 1.0,
+                  "type": "minecraft:uniform"
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": {
+                  "min": 0.0,
+                  "max": 1.0
+                }
+              }
+            ],
+            "name": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.01,
+                            "looting_multiplier": 0.02
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Ender Helmet\",\"color\":\"light_purple\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Helmet of Ender Men\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}']},HideFlags:63,Unbreakable:1b,EnderHelmet:1b,Enchantments:[{}], SkullOwner:{Id:[I;1262320439,-1122810815,-1094909257,143488375], Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzcwZTk2MzZiZGRiYzE0MGQyZDc0ODE5NGJkN2UxZGZiZGE0NTI2ZTk2MGMzNzMzZWI3ZGFlMTRiMWY2MDdmNiJ9fX0=+\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chainmail_chestplate",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.01,
+                            "looting_multiplier": 0.02
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Ender Chestplate\",\"color\":\"light_purple\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Chestplate of Ender Men\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}'],color:8991416},HideFlags:63,Unbreakable:1b,EnderChest:1b,Enchantments:[{}]}"
+                        }
+                    ]
+                },
+                {
+                  "type":"item",
+                  "weight":1,
+                  "name":"minecraft:chainmail_leggings",
+                  "conditions": [
+                    {
+                        "condition": "random_chance",
+                        "chance": 0.01
+                    },
+                    {
+                        "condition": "random_chance_with_looting",
+                        "chance": 0.01,
+                        "looting_multiplier": 0.02
+                    }
+                ],
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "set_nbt",
+                        "tag": "{display:{Name:'{\"text\":\"Ender Leggings\",\"color\":\"light_purple\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Leggings of Ender Men\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}'],color:8991416},HideFlags:63,Unbreakable:1b,EnderLeg:1b,Enchantments:[{}]}"
+                    }
+                ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chainmail_boots",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.01,
+                            "looting_multiplier": 0.02
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Ender Boots\",\"color\":\"light_purple\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Boots of Ender Men\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}'],color:8991416},HideFlags:63,Unbreakable:1b,EnderBoots:1b,Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+      }
+    ]
+}
